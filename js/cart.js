@@ -52,7 +52,6 @@ window.Cart = {
         products.forEach(cart => productRows += Cart.getProductInCartHtml(product));
 
         $('table.shop_table.cart tbody').html(productRows);
-
     }
 };
-Shop.getCart();
+Cart.getCart();
